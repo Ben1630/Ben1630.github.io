@@ -1,0 +1,38 @@
+body {
+text-align: center;
+background-color: Teal;
+font-family: arial;
+}
+
+h1 {
+	color: aqua;
+	
+}
+
+h2 {
+	color: aqua;
+	
+}
+
+ul {
+	list-style-position: inside;
+	text-align: left;
+	margin-left: 50px;
+	color: aqua;
+}
+
+p {
+	
+	color: aqua;
+}
+
+.engram {
+
+	border-radius: 50%;
+	
+}
+
+.sub-list{
+	margin-left: -50px;
+	
+}
