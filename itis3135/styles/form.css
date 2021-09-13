@@ -1,0 +1,45 @@
+body {
+text-align: center;
+background-color: Teal;
+font-family: arial;
+}
+
+h1 {
+	color: aqua;
+	
+}
+
+h2 {
+	color: aqua;
+	
+}
+
+h3{
+	color: aqua;
+	
+}
+
+input{
+	
+	padding: 3px;
+}
+
+p {
+	
+	color: aqua;
+}
+
+
+
+
+
+#submit{
+	
+	background-color: black;
+	color: white;
+}
+
+label{
+	color: aqua;
+	
+}
