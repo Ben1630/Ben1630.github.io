@@ -42,3 +42,12 @@ a {
 	color: black;
 	
 }
+
+ul{
+	list-style-position: inside;
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
