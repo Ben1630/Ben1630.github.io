@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <link href="styles/default.css" rel="stylesheet" type="text/css">
-<title>Ben Beasley, ITIS3135, Introduction</title>
+<title>Ben Beasley, ITIS3135, Arrays</title>
 </head>
 
 <body>
@@ -20,40 +20,71 @@
 </nav>
 
 <main>
-<h2>Introduction</h2>
-<figure>
-<a href="images/engram.jpg">
-<img class="engram" src="images/engram.jpg" alt="An exotic engram from the video game Destiny."></a>
-<figcaption style="color: aqua;">An exotic engram from Destiny, symbolizing knowledge and power.</figcaption>
-</figure>
+<h2>Arrays</h2>
 
-<ul style="text-align: left;">
 
-<li>Personal Background: I was born in Kansas, but I've lived most of my life here in North Carolina. I attended Elizabeth Lane Elementary, South Charlotte Middle School, and Providence High School.</li>
 
-<li>Professional: I have volunteered for more than 300 hours at a non-profit organization called the Matthews H.E.L.P. center.</li>
+<label for="employees"> Select an Employee here:</label>
 
-<li>Academic Background: I have taken many computer science courses throughout my academic career. I have certifications in database management as well as Quickbooks.</li>
+<select name="cars" id="cars">
 
-<li>Background in the subject matter of this course: I have taken an html class before and utilized different functions to create things like stores with functioning shopping carts.</li>
+  <option value="Tom Hart">Tom Hart</option>
+  <option value="Tyrone Morris">Tyrone Morris</option>
+  <option value="James Bradley">James Bradley</option>
+  <option value="Ethan Hill">Ethan Hill</option>
+  <option value="Chris Zhao">Chris Zhao</option>
+  <option value="Nick Polom">Nick Polom</option>
+  <option value="Felix Belmonte">Felix Belmonte</option>
+</select>
 
-<li>Primary Computer Platform: Windows 10.</li>
+<br><br>
+<form>
+<input style="text-align: center;" type="text" id="salInput" name="salInput" size="30" required placeholder="Salary goes here">
 
-<li>Courses I'm taking:
-<ul>
-<li class="sub-list">STAT 2223 Elements of Statistics 2</li>
-<li class="sub-list">LBST 1105 Arts and Society: Visual Arts</li>
-<li class="sub-list">ITSC 3688 Computers and their Impact on Society</li>
-<li class="sub-list">ITIS 3135 Web App Design and Development</li>
-</ul>
+<br>
+<br>
 
-</li>
+<button onclick="addClick()" type="button" id="addSalary" name="addSalary" >Add Salary</button>
 
-<li>Something Interesting: I have been playing video games for a long time, and because of my performance on a random game of Battlefield 1 in 2018, I was picked up by a <br> professional group that went by Evil(EVL) and eventually accepted during their transformation into The Savage Few(SVG). </li>
+</form>
+<br><br>
 
-<li>I'd also like to share: This is my third year attending UNCC.</li>
+<button onclick="displayResultsClick()" type="button" id="displayResults" name="displayResults" >Display Results</button>
 
-</ul>
+<br><br>
+
+<button onclick="displaySalaryClick()" type="button" id="displaySalary" name="displaySalary" >Display Salary</button>
+
+
+
+
+<script src="C:\Users\benbe\Documents\itis3135_work\Ben1630.github.io\itis3135\scripts\arrays.js"></script>
+
+
+
+<br><br><br>
+
+<div id="results">
+
+<h2 id="header"></h2>
+<br>
+<p id="average"></p>
+<br>
+<p id="max"></p>
+
+
+</div>
+
+
+
+
+<table id="results_table">
+
+
+
+</table>
+
+
 </main>
 <footer>
 <br>
