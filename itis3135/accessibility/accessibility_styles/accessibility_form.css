@@ -1,0 +1,53 @@
+body {
+text-align: center;
+
+font-family: arial;
+}
+
+input{
+	
+	padding: 3px;
+}
+
+
+
+
+
+
+#submit{
+	
+	background-color: white;
+	color: Red;
+}
+
+#name{
+border-color: red;	
+	
+}
+
+#number{
+	border-color: green;
+}
+
+#email{
+	border-color: blue;
+}
+
+
+a:visited
+{
+	color: black;
+	
+	
+}
+
+
+
+table{
+	border-collapse: collapse;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
