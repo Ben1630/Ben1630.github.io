@@ -4,7 +4,19 @@
 <head>
 <meta charset="UTF-8">
 <link href="styles/default.css" rel="stylesheet" type="text/css">
-<title>Ben Beasley, ITIS3135, Introduction</title>
+<title>Ben Beasley, ITIS3135, Slideshow</title>
+
+
+<style>
+.gallery
+{
+	heigth: 200px;
+	width: 250px;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script src="scripts/slideshow.js"></script>
 </head>
 
 <body>
@@ -42,40 +54,52 @@
 </nav>
 
 <main>
-<h2>Introduction</h2>
-<figure>
-<a href="images/engram.jpg">
-<img class="engram" src="images/engram.jpg" alt="An exotic engram from the video game Destiny."></a>
-<figcaption style="color: aqua;">An exotic engram from Destiny, symbolizing knowledge and power.</figcaption>
-</figure>
+<h2>Slideshow</h2>
 
-<ul style="text-align: left;">
 
-<li>Personal Background: I was born in Kansas, but I've lived most of my life here in North Carolina. I attended Elizabeth Lane Elementary, South Charlotte Middle School, and Providence High School.</li>
+<ul style="list-style-type:none; display: inline;" id="image_list">
 
-<li>Professional: I have volunteered for more than 300 hours at a non-profit organization called the Matthews H.E.L.P. center.</li>
-
-<li>Academic Background: I have taken many computer science courses throughout my academic career. I have certifications in database management as well as Quickbooks.</li>
-
-<li>Background in the subject matter of this course: I have taken an html class before and utilized different functions to create things like stores with functioning shopping carts.</li>
-
-<li>Primary Computer Platform: Windows 10.</li>
-
-<li>Courses I'm taking:
-<ul>
-<li class="sub-list">STAT 2223 Elements of Statistics 2</li>
-<li class="sub-list">LBST 1105 Arts and Society: Visual Arts</li>
-<li class="sub-list">ITSC 3688 Computers and their Impact on Society</li>
-<li class="sub-list">ITIS 3135 Web App Design and Development</li>
-</ul>
-
+<li style="display: inline;">
+<a href="images/sunshot.jpg">
+<img class="gallery" id="sun" src="images/sunshot.jpg" alt="A picture of an exotic weapon from Destiny 2."></a>
 </li>
 
-<li>Something Interesting: I have been playing video games for a long time, and because of my performance on a random game of Battlefield 1 in 2018, I was picked up by a <br> professional group that went by Evil(EVL) and eventually accepted during their transformation into The Savage Few(SVG). </li>
+<li style="display: inline;">
+<a href="images/lastword.jpg">
+<img class="gallery" id="word" src="images/lastword.jpg" alt="A picture of an exotic weapon from Destiny 2."></a>
+</li>
 
-<li>I'd also like to share: This is my third year attending UNCC.</li>
+<li style="display: inline;">
+<a href="images/wardcliff.jpg">
+<img class="gallery" id="ward" src="images/wardcliff.jpg" alt="A picture of an exotic weapon from Destiny 2."></a>
+</li>
 
-</ul>
+<br>
+
+<li style="display: inline;">
+<a href="images/acrius.jpg">
+<img class="gallery" Id="acrius" src="images/acrius.jpg" alt="A picture of an exotic weapon from Destiny 2."></a>
+</li>
+
+<li style="display: inline;">
+<a href="images/deathbringer.jpg">
+<img class="gallery" Id="death" src="images/deathbringer.jpg" alt="A picture of an exotic weapon from Destiny 2."></a>
+</li>
+
+<li style="display: inline;">
+<a href="images/cerberus.jpg">
+<img class="gallery" Id="cerb" src="images/cerberus.jpg" alt="A picture of an exotic weapon from Destiny 2."></a>
+</li>
+
+<br>
+<br>
+
+<figure>
+
+<img id="mag" src="images/cerberus.jpg" alt="" height="0px" width="0px">
+</figure>
+
+
 </main>
 <footer>
 <br>
@@ -84,7 +108,7 @@
 
 <p>Page built by Bold Baboon Inc. Copyright 2021</p>
 
-<a style="text-decoration: none;" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fbbeasle6%2Fitis3135%2FIndex.html"> 
+<a style="text-decoration:none;" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fbbeasle6%2Fitis3135%2FIndex.html"> 
 <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to html validator">
 </a>
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fbbeasle6%2Fitis3135%2FIndex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
