@@ -8,9 +8,9 @@ $(document).ready( () =>
 		
 		$("#mag").attr("src", link.href);
 		
-		$("#mag").attr("height", "400px");
+		$("#mag").attr("height", "400");
 		
-		$("#mag").attr("width", "800px");
+		$("#mag").attr("width", "800");
 		
 		evt.preventDefault();
 		
