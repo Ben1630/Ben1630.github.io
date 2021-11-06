@@ -63,10 +63,17 @@ bbaboonInc@gmail.com <br>
 <input required type="text" id="complaint" name="complaint" size="30" placeholder="Enter your complaint here">
 <br>
 <br>
-<input type="submit" id="submit" value="submit">
+<input onClick="output" type="submit" id="submit" value="submit">
 
 
+<script>
 
+function output()
+{
+	alert($("#name").val()    + ". " +   $("#number").val()    + ". "  +   $("#email").val()    + ". " + $("#complaint").val()) + ".";
+}
+
+</script>
 
 </form>
 

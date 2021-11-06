@@ -23,7 +23,7 @@ $("#submission").submit( event => {
 	else
 	{
 		
-		Alert($("#name").val()    +    $("#number").val()    +   $("#email").val()    + $("#complaint").val());
+		alert($("#name").val()    +    $("#number").val()    +   $("#email").val()    + $("#complaint").val());
 		
 	}
 	
