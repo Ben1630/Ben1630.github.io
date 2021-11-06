@@ -1,0 +1,55 @@
+body{
+	background-color: #2b2d42;
+	text-align: center;
+	color: #edf2f4;
+}
+
+p{
+	background-color: #ef233c;
+	color: white;
+	
+}
+
+h3{
+	color: white;
+}
+
+ul{
+	list-style-position: inside;
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #d90429;
+	list-style-type: square;
+}
+li{
+	text-align: left;
+	margin-left: 100px;
+}
+
+div{
+	background-color: #d90429;
+}
+
+section{
+	background-color: #d90429;
+	color: white;
+}
+
+#name{
+	border-color: blue;
+}
+
+#number{
+	border-color: black;
+}
+
+#email{
+	border-color: yellow;
+}
+
+#complaint{
+	border-color: green;
+}

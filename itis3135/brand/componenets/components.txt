@@ -1,0 +1,24 @@
+<h1>Bold Baboon Inc.</h1>
+
+<img src="images/baboon(pixabay.com).jpg" alt="Picture of a Baboon." width="600" height="400">
+
+<br>
+
+
+<br>
+
+
+<nav>
+
+<a id ="home" style="color: white;" href="https://webpages.uncc.edu/bbeasle6/itis3135/brand/index.html" target="_blank"> Home </a>
+
+--
+<a id ="cont" style="color: white;" href="https://webpages.uncc.edu/bbeasle6/itis3135/brand/contact.html" target="_blank"> Contact Us </a>
+
+--
+<a id ="order" style="color: white;" href="https://webpages.uncc.edu/bbeasle6/itis3135/brand/order.html" target="_blank"> Order Here </a>
+</nav>
+
+
+
+<p>Page built by Bold Baboon Inc. Copyright 2021</p>
