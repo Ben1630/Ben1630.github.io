@@ -1,0 +1,50 @@
+body {
+text-align: center;
+background-color: #73e2a7;
+font-family: arial;
+}
+
+header{
+	background-color: #1b512d;
+	color: #def4c6;
+	padding: 70px;
+	font-size: 25px;
+	margin: auto;
+	font-family: Georgia;
+}
+
+
+main{
+	background-color: #def4c6;
+	padding: 70px;
+}
+
+a{
+	
+	padding: 20px;
+	color: #def4c6;
+}
+
+a:visited{
+	color: #def4c6;
+}
+
+ul{
+	list-style-position: inside;
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+nav{
+	position: relative;
+	left: -50px;
+}
+
+footer{
+	background-color: #1b512d;
+	color: #def4c6;
+	padding: 50px;
+}
