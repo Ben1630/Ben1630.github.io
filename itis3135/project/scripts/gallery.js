@@ -1,21 +1,3 @@
-
-
-$(document).ready( () => 
-{
-	$("#image_list a").click( evt =>
-	{
-		const link = evt.currentTarget;
-		
-		$("#mag").attr("src", link.href);
-		
-		$("#mag").attr("height", "400");
-		
-		$("#mag").attr("width", "800");
-		
-		evt.preventDefault();
-		
-		
-	})
-	
-	
-})
+$(document).ready(function(){
+      $('.slider').bxSlider({slideWidth:600, controls:false, auto:true});
+    });

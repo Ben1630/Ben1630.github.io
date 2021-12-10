@@ -1,4 +1,12 @@
+$(document).ready(function(){
+
+		$("#box").dialog();
+		$("#box").parent().hide();
+});
+
 function complete() {
-	alert("Your information has been accepted. Thank you!");
+			
+	$("#box").parent().show();
+
 	
 }

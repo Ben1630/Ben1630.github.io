@@ -5,15 +5,24 @@
 <meta charset="UTF-8">
 <link href="styles/default.css" rel="stylesheet" type="text/css">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
 <script src="scripts/gallery.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 <style>
 .gallery
 {
-	height: 100px;
-	width: 150px;
+	max-height: 200px;
+	max-width: 150px;
+	margin: auto;
+}
+
+.bx-wrapper
+{
+	margin:auto;
 }
 </style>
 
@@ -57,47 +66,18 @@
 <h2>Recent Antique Identifications</h2>
 <br>
 
-<ul style="list-style-type:none; display: inline;" id="image_list">
+<div class="slider">
+    <div><a href="images/glass1.jpg"><img class="gallery" src="images/glass1.jpg" alt="A picture of glassware"></a></div>
+    <div><a href="images/glass2.jpg"><img class="gallery" src="images/glass2.jpg" alt="A picture of glassware"></a></div>
+	<div><a href="images/glass3.jpg"><img class="gallery" src="images/glass3.jpg" alt="A picture of glassware"></a></div>
+    <div><a href="images/glass4.jpg"><img class="gallery" src="images/glass4.jpg" alt="A picture of glassware"></a></div>
+	<div><a href="images/glass5.jpg"><img class="gallery" src="images/glass5.jpg" alt="A picture of glassware"></a></div>
+    <div><a href="images/glass6.jpg"><img class="gallery" src="images/glass6.jpg" alt="A picture of glassware"></a></div>
+  </div>
 
-<li style="display: inline;">
-<a href="images/glass1.jpg">
-<img class="gallery" id="g1" src="images/glass1.jpg" alt="A picture of glassware"></a>
-</li>
-
-<li style="display: inline;">
-<a href="images/glass2.jpg">
-<img class="gallery" id="g2" src="images/glass2.jpg" alt="A picture of glassware"></a>
-</li>
-
-<li style="display: inline;">
-<a href="images/glass3.jpg">
-<img class="gallery" id="g3" src="images/glass3.jpg" alt="A picture of glassware"></a>
-</li>
-
-<li style="display: inline;">
-<a href="images/glass4.jpg">
-<img class="gallery" Id="g4" src="images/glass4.jpg" alt="A picture of glassware"></a>
-</li>
-
-<li style="display: inline;">
-<a href="images/glass5.jpg">
-<img class="gallery" Id="g5" src="images/glass5.jpg" alt="A picture of glassware"></a>
-</li>
-
-<li style="display: inline;">
-<a href="images/glass6.jpg">
-<img class="gallery" Id="g6" src="images/glass6.jpg" alt="A picture of glassware"></a>
-</li>
-
-</ul>
 
 <br>
 <br>
-
-<figure>
-
-<img id="mag" src="images/glass1.jpg" alt="" height="0" width="0">
-</figure>
 
 </main>
 <footer>
